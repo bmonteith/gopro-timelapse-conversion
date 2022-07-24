@@ -20,6 +20,6 @@ Make sure you install FFMPEG, and set it in your PATH, so that you can use it an
 Then run FFMPEG using a command like this:
 ffmpeg -f image2 -i G%4d.jpg convertedtimelapse1.mp4
 
-The %4d will rename all the files, so they are sequential, starting with 01 (which FFMPEG requires). 
+The %4d means that it is uwing all th sequential numbered files with leading zeros (4), starting with 01 (which FFMPEG requires).  You can change this number in the testrename file if you have more files. 
 
-Then after a while you should see this mp4 file in this directory.   Good to go. 
+Then after a while you should see the name mp4 file in this directory.   Good to go. 
